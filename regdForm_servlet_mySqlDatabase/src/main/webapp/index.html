@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration form servlet in mySql</title>
+<style>
+form{
+text-align:center;
+}
+
+</style>
+
+</head>
+<body bgcolor="wheat">
+
+
+<form action="RegisterServlet" method="post">  
+<h1>Register form</h1>
+<label>Name:</label></label><input type="text" name="userName"/><br/><br/>  
+<label>Password:</label></label><input type="password" name="userPass"/><br/><br/>  
+<label>Email Id:</label><input type="text" name="userEmail"/><br/><br/>  
+<label>Country:</label>  
+<select name="userCountry">  
+<option>India</option>  
+<option>USA</option>
+<option>Russia</option>
+<option>UAE</option>  
+<option>other</option>  
+</select>  
+  
+<br/><br/>  
+<input type="submit" value="Register"/>  
+  
+</form> 
+
+
+</body>
+</html>
